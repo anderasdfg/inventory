@@ -1,0 +1,15 @@
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\acholado.LOLIMSA\source\repos\Inventory\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
