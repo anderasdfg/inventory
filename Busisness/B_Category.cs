@@ -16,8 +16,15 @@ namespace Business
                 return db.Categories.ToList();
             }
         }
+        public static CategoryEntity CategoryById(string id)
+        {
+            using (var db = new InventoryContext())
+            {
+                return db.Categories.ToList().LastOrDefault(c => c.CategoryId == id);
+            }
+        }
 
-        public void CreateCategory(CategoryEntity objCategory)
+        public static void CreateCategory(CategoryEntity objCategory)
         {
             using (var db = new InventoryContext())
             {
@@ -25,7 +32,7 @@ namespace Business
                 db.SaveChanges();
             }
         }
-        public void UpdateCategory(CategoryEntity objCategory)
+        public static void UpdateCategory(CategoryEntity objCategory)
         {
             using (var db = new InventoryContext())
             {

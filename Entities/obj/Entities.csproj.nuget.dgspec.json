@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj": {}
+    "C:\\Code\\inventory\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj": {
+    "C:\\Code\\inventory\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Code\\inventory\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\acholado.LOLIMSA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\obj\\",
+        "projectPath": "C:\\Code\\inventory\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\inventory\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acholado.LOLIMSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -52,6 +47,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

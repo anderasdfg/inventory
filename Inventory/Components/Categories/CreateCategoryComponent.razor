@@ -1,0 +1,40 @@
+﻿@using Entities
+@using Business
+
+@inject NavigationManager NavManager
+
+    <div>
+        <EditForm Model="objCategory">
+            <DataAnnotationsValidator/>
+            <div class="form-group">
+                <label>ID Categoría: </label>
+                <InputText @bind-Value="objCategory.CategoryId" class="form-control" />
+                <ValidationMessage For="@(()=> objCategory.CategoryId)" class="text-danger"></ValidationMessage>
+            </div>
+            <div class="form-group">
+                <label>Categoría: </label>
+                <InputText @bind-Value="objCategory.CategoryName" class="form-control" />
+                <ValidationMessage For="@(()=> objCategory.CategoryName)" class="text-danger"></ValidationMessage>
+            </div>
+                        
+            <input type="button" value="Agregar categoría" @onclick="SaveCategory" />
+        </EditForm>
+    </div>
+
+@code {
+    CategoryEntity objCategory = new CategoryEntity();
+    List<CategoryEntity> categories = new List<CategoryEntity>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = B_Category.CategoryList();
+    }
+
+    private void SaveCategory()
+    {
+        B_Category.CreateCategory(objCategory);
+        NavManager.NavigateTo("category/list");
+
+        
+}
+}

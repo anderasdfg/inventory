@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Inventory\\Inventory.csproj": {}
+    "C:\\Code\\inventory\\Inventory\\Inventory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Busisness\\Business.csproj": {
+    "C:\\Code\\inventory\\Busisness\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Busisness\\Business.csproj",
+        "projectUniqueName": "C:\\Code\\inventory\\Busisness\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Busisness\\Business.csproj",
-        "packagesPath": "C:\\Users\\acholado.LOLIMSA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Busisness\\obj\\",
+        "projectPath": "C:\\Code\\inventory\\Busisness\\Business.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\inventory\\Busisness\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acholado.LOLIMSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -32,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\DataAccess\\DataAccess.csproj"
+              "C:\\Code\\inventory\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Code\\inventory\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj"
+              "C:\\Code\\inventory\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Code\\inventory\\Entities\\Entities.csproj"
               }
             }
           }
@@ -59,10 +54,13 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -71,23 +69,18 @@
         }
       }
     },
-    "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\DataAccess\\DataAccess.csproj": {
+    "C:\\Code\\inventory\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Code\\inventory\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\acholado.LOLIMSA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\DataAccess\\obj\\",
+        "projectPath": "C:\\Code\\inventory\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\inventory\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acholado.LOLIMSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -99,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj"
+              "C:\\Code\\inventory\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Code\\inventory\\Entities\\Entities.csproj"
               }
             }
           }
@@ -143,6 +136,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -152,23 +151,18 @@
         }
       }
     },
-    "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj": {
+    "C:\\Code\\inventory\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Code\\inventory\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\acholado.LOLIMSA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\obj\\",
+        "projectPath": "C:\\Code\\inventory\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\inventory\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acholado.LOLIMSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -200,6 +194,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -209,23 +209,18 @@
         }
       }
     },
-    "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Inventory\\Inventory.csproj": {
+    "C:\\Code\\inventory\\Inventory\\Inventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Inventory\\Inventory.csproj",
+        "projectUniqueName": "C:\\Code\\inventory\\Inventory\\Inventory.csproj",
         "projectName": "Inventory",
-        "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Inventory\\Inventory.csproj",
-        "packagesPath": "C:\\Users\\acholado.LOLIMSA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Inventory\\obj\\",
+        "projectPath": "C:\\Code\\inventory\\Inventory\\Inventory.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\inventory\\Inventory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\acholado.LOLIMSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -237,11 +232,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Busisness\\Business.csproj": {
-                "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Busisness\\Business.csproj"
+              "C:\\Code\\inventory\\Busisness\\Business.csproj": {
+                "projectPath": "C:\\Code\\inventory\\Busisness\\Business.csproj"
               },
-              "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\acholado.LOLIMSA\\source\\repos\\Inventory\\Entities\\Entities.csproj"
+              "C:\\Code\\inventory\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Code\\inventory\\Entities\\Entities.csproj"
               }
             }
           }
@@ -264,6 +259,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

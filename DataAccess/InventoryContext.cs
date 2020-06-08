@@ -20,7 +20,7 @@ namespace DataAccess
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlServer("Server=PC-ACHOLADO; Database=InventoryDB; ;trusted_connection=true;");
+                options.UseSqlServer("Server=PC-ANDERLEY; Database=InventoryDB; User Id=sa; Password=anderley");
             }
         }
 

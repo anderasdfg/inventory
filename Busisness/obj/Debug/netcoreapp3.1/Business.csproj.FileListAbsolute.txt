@@ -12,3 +12,17 @@ C:\Users\acholado.LOLIMSA\source\repos\Inventory\Busisness\obj\Debug\netcoreapp3
 C:\Users\acholado.LOLIMSA\source\repos\Inventory\Busisness\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
 C:\Users\acholado.LOLIMSA\source\repos\Inventory\Busisness\obj\Debug\netcoreapp3.1\Business.dll
 C:\Users\acholado.LOLIMSA\source\repos\Inventory\Busisness\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Code\inventory\Busisness\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Code\inventory\Busisness\bin\Debug\netcoreapp3.1\Business.dll
+C:\Code\inventory\Busisness\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Code\inventory\Busisness\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Code\inventory\Busisness\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Code\inventory\Busisness\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Code\inventory\Busisness\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Code\inventory\Busisness\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+C:\Code\inventory\Busisness\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Code\inventory\Busisness\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Code\inventory\Busisness\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Code\inventory\Busisness\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Code\inventory\Busisness\obj\Debug\netcoreapp3.1\Business.dll
+C:\Code\inventory\Busisness\obj\Debug\netcoreapp3.1\Business.pdb
